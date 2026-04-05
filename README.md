@@ -3,7 +3,7 @@
 This repo ports the nice [Moegi VSCode theme](https://github.com/moegi-design/vscode-theme) to Neovim. It keeps the same nine variants, cold-green + warm-red accents, and palette structure while translating highlights, terminal colors, and statuslines for Neovim’s runtime.
 
 ## Extras
-- Ghostty terminal themes: `extras/ghostty/*.conf` (https://ghostty.org/).
+- Ghostty terminal themes: `extras/ghostty/` (https://ghostty.org/) — use `theme = moegi-dark` or `theme = dark:moegi-dark,light:moegi-light`.
 - WezTerm terminal themes: `extras/wezterm/*.lua` (https://wezterm.org/index.html).
 - Mattermost themes: `extras/mattermost/*.json` (https://mattermost.com/).
 - Zed editor theme: `extras/zed/` (https://zed.dev/) — put the file in `$HOME/.config/zed/themes/` and reload Zed to activate the theme.
