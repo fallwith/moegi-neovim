@@ -1,0 +1,245 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "gh_canvas_default": "#202020",
+    "gh_canvas_inset": "#181818",
+    "gh_canvas_subtle": "#333333",
+    "gh_fg_default": "#dddddd",
+    "gh_fg_muted": "#758575dd",
+    "gh_fg_subtle": "#666666",
+    "gh_border_default": "#ffffff3f",
+    "gh_border_muted": "#ffffff12",
+    "gh_accent_fg": "#7098d4",
+    "gh_accent_emphasis": "#ff8787",
+    "gh_accent_subtle": "#7098d4",
+    "gh_success_fg": "#66b395",
+    "gh_success_emphasis": "#76c3a5",
+    "gh_attention_fg": "#e7d38f",
+    "gh_attention_emphasis": "#f2d98e",
+    "gh_danger_fg": "#ff8787",
+    "gh_danger_emphasis": "#f48484",
+    "gh_severe_fg": "#e7d38f",
+    "gh_neutral_muted": "#666666",
+    "gh_neutral_subtle": "#758575dd",
+    "gh_blue_1": "#7098d4",
+    "gh_blue_2": "#80a8e4",
+    "gh_blue_3": "#7098d4",
+    "gh_green_1": "#66b395",
+    "gh_green_2": "#76c3a5",
+    "gh_green_3": "#76c3a5",
+    "gh_yellow_1": "#e2c97e",
+    "gh_yellow_2": "#f2d98e",
+    "gh_orange_1": "#e2c97e",
+    "gh_orange_2": "#f2d98e",
+    "gh_red_1": "#e47474",
+    "gh_red_2": "#f48484",
+    "gh_purple_1": "#b290ba",
+    "gh_purple_2": "#c2a0ca",
+    "gh_pink_1": "#c2a0ca",
+    "gh_gray_1": "#666666",
+    "gh_gray_2": "#333333",
+    "gh_white": "#f6f6f6"
+  },
+  "theme": {
+    "primary": {
+      "dark": "gh_accent_emphasis",
+      "light": "gh_accent_emphasis"
+    },
+    "secondary": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "accent": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "error": {
+      "dark": "gh_danger_fg",
+      "light": "gh_danger_fg"
+    },
+    "warning": {
+      "dark": "gh_attention_fg",
+      "light": "gh_attention_fg"
+    },
+    "success": {
+      "dark": "gh_success_fg",
+      "light": "gh_success_fg"
+    },
+    "info": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "text": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "textMuted": {
+      "dark": "gh_fg_muted",
+      "light": "gh_fg_muted"
+    },
+    "background": {
+      "dark": "gh_canvas_default",
+      "light": "gh_canvas_default"
+    },
+    "backgroundPanel": {
+      "dark": "gh_canvas_inset",
+      "light": "gh_canvas_inset"
+    },
+    "backgroundElement": {
+      "dark": "gh_canvas_subtle",
+      "light": "gh_canvas_subtle"
+    },
+    "border": {
+      "dark": "gh_border_default",
+      "light": "gh_border_default"
+    },
+    "borderActive": {
+      "dark": "gh_orange_2",
+      "light": "gh_orange_2"
+    },
+    "borderSubtle": {
+      "dark": "gh_border_muted",
+      "light": "gh_border_muted"
+    },
+    "diffAdded": {
+      "dark": "gh_green_1",
+      "light": "gh_green_1"
+    },
+    "diffRemoved": {
+      "dark": "gh_red_1",
+      "light": "gh_red_1"
+    },
+    "diffContext": {
+      "dark": "gh_fg_muted",
+      "light": "gh_fg_muted"
+    },
+    "diffHunkHeader": {
+      "dark": "gh_purple_1",
+      "light": "gh_purple_1"
+    },
+    "diffHighlightAdded": {
+      "dark": "gh_green_1",
+      "light": "gh_green_1"
+    },
+    "diffHighlightRemoved": {
+      "dark": "gh_red_1",
+      "light": "gh_red_1"
+    },
+    "diffAddedBg": {
+      "dark": "gh_success_emphasis",
+      "light": "gh_success_emphasis"
+    },
+    "diffRemovedBg": {
+      "dark": "gh_danger_emphasis",
+      "light": "gh_danger_emphasis"
+    },
+    "diffContextBg": {
+      "dark": "gh_canvas_inset",
+      "light": "gh_canvas_inset"
+    },
+    "diffLineNumber": {
+      "dark": "gh_fg_subtle",
+      "light": "gh_fg_subtle"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "gh_success_fg",
+      "light": "gh_success_fg"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "gh_danger_fg",
+      "light": "gh_danger_fg"
+    },
+    "markdownText": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "markdownHeading": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "markdownLink": {
+      "dark": "gh_blue_1",
+      "light": "gh_blue_1"
+    },
+    "markdownLinkText": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "markdownCode": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "markdownBlockQuote": {
+      "dark": "gh_green_1",
+      "light": "gh_green_1"
+    },
+    "markdownEmph": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "markdownStrong": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "markdownHorizontalRule": {
+      "dark": "gh_border_default",
+      "light": "gh_border_default"
+    },
+    "markdownListItem": {
+      "dark": "gh_orange_1",
+      "light": "gh_orange_1"
+    },
+    "markdownListEnumeration": {
+      "dark": "gh_orange_1",
+      "light": "gh_orange_1"
+    },
+    "markdownImage": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "markdownImageText": {
+      "dark": "gh_accent_fg",
+      "light": "gh_accent_fg"
+    },
+    "markdownCodeBlock": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "syntaxComment": {
+      "dark": "gh_gray_1",
+      "light": "gh_gray_1"
+    },
+    "syntaxKeyword": {
+      "dark": "gh_red_2",
+      "light": "gh_red_2"
+    },
+    "syntaxFunction": {
+      "dark": "gh_purple_1",
+      "light": "gh_purple_1"
+    },
+    "syntaxVariable": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    },
+    "syntaxString": {
+      "dark": "gh_blue_1",
+      "light": "gh_blue_1"
+    },
+    "syntaxNumber": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "syntaxType": {
+      "dark": "gh_blue_2",
+      "light": "gh_blue_2"
+    },
+    "syntaxOperator": {
+      "dark": "gh_red_2",
+      "light": "gh_red_2"
+    },
+    "syntaxPunctuation": {
+      "dark": "gh_fg_default",
+      "light": "gh_fg_default"
+    }
+  }
+}

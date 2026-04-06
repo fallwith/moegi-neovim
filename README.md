@@ -4,6 +4,7 @@ This repo ports the nice [Moegi VSCode theme](https://github.com/moegi-design/vs
 
 ## Extras
 - Ghostty terminal themes: `extras/ghostty/` (https://ghostty.org/) — use `theme = moegi-dark` or `theme = dark:moegi-dark,light:moegi-light`.
+- Opencode themes: `extras/opencode/*.json` (https://opencode.ai/) — put the file in `$HOME/.config/opencode/themes/` and reload Opencode.
 - WezTerm terminal themes: `extras/wezterm/*.lua` (https://wezterm.org/index.html).
 - Mattermost themes: `extras/mattermost/*.json` (https://mattermost.com/).
 - Zed editor theme: `extras/zed/` (https://zed.dev/) — put the file in `$HOME/.config/zed/themes/` and reload Zed to activate the theme.
