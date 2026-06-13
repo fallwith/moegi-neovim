@@ -8,6 +8,7 @@ This repo ports the nice [Moegi VSCode theme](https://github.com/moegi-design/vs
 - WezTerm terminal themes: `extras/wezterm/*.lua` (https://wezterm.org/index.html).
 - Mattermost themes: `extras/mattermost/*.json` (https://mattermost.com/).
 - Zed editor theme: `extras/zed/` (https://zed.dev/) — put the file in `$HOME/.config/zed/themes/` and reload Zed to activate the theme.
+- Pi coding agent themes: `extras/pi/*.json` (https://pi.dev/) — put files in `~/.pi/agent/themes/` or `.pi/themes/` and select via `/settings`.
 
 ## Highlights
 - Transparent-friendly setup with helpers that blend VSCode-style alpha colors into solid hex values that Neovim accepts.
